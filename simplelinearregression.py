@@ -10,7 +10,7 @@ column_names = [
 ]
 
 # Load the .data file
-df = pd.read_csv("/Users/cex/Desktop/CaliforniaHousing/cal_housing.data", header=None, names=column_names)
+df = pd.read_csv("\Users\cex\Desktop\CaliforniaHousing", header=None, names=column_names)
 
 # Select one feature and the target
 X = df[["AveRooms"]]          # Feature (must be 2D for scikit-learn)
